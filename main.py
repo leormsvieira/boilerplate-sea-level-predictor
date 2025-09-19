@@ -1,9 +1,9 @@
-# This entrypoint file to be used in development. Start by reading README.md
+# Este arquivo de entrada deve ser usado no desenvolvimento. Comece lendo o README.md
 import sea_level_predictor
 from unittest import main
 
-# Test your function by calling it here
+# Teste sua função chamando-a aqui
 sea_level_predictor.draw_plot()
 
-# Run unit tests automatically
+# Executa os testes unitários automaticamente
 main(module='test_module', exit=False)
